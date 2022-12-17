@@ -1,5 +1,15 @@
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: aliceblue;
+    background-image: url(   https://www.google.com.tr/search?q=g%C3%B6rseller&hl=en&authuser=0&tbm=isch&sxsrf=ALiCzsaMvDENkBx4grKcumQxz2RBcbEu0g%3A1671278699590&source=hp&biw=1440&bih=706&ei=a7CdY8iqIYqFxc8PoOmXsA4&iflsig=AJiK0e8AAAAAY52-e-7jnkghniapaqzJiLhA0rnJoOy6&ved=0ahUKEwiIjNSpzoD8AhWKQvEDHaD0BeYQ4dUDCAc&oq=g%C3%B6rseller&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgQIABAeMgQIABAeMgQIABAeMgQIABAeMgYIABAFEB4yBggAEAUQHjIECAAQHjIECAAQHjoHCCMQ6gIQJzoECCMQJ1DHL1iFQmDsQ2gCcAB4AIABqAGIAZcJkgEDMC45mAEAoAEBqgELZ3dzLXdpei1pbWewAQo&sclient=img&uact=5#imgrc=cy15FnonTrI_rM);
+    background-repeat: no-repeat;
+    background-position: 25ç
+
+    px left;
+}
+
+#box {
+    border: 1px solid red;
 }
 
 p {
@@ -12,6 +22,10 @@ p {
     white-space: pre-wrap;
     text-transform: capitalize;
     text-shadow: 15px 15px 20px red;
+
+    width: 250px;
+    height: 250px;
+    background: radial-gradient(red, blue);
 }
 
 h2 {
