@@ -26,7 +26,7 @@
 
     <a href="#" target="_parent">Click me!</a>
     <br>
-    <img src="curry.jpg" alt="Steph Curry" width="150" height="200"> <!-- alt attribute is really important for SEO-->
+    <img src="curry.jpg" alt="Steph Curry" width="100" height="150"> <!-- alt attribute is really important for SEO-->
     <br>
     <table border="1">
         <thead>
@@ -61,10 +61,48 @@
         <li>HTML</li>
         <li>CSS</li>
     </ul>
-    
-    <form action="">
+    <h3>Form Stuff</h3>
+    <form action="" method="">
+        <label for="username">Username: </label>
+        <input type="text" name="username" id="" placeholder="Ex: Josh">
+        <br>
+        <label for="password">Password: </label>
+        <input type="password" name="password" id="">
+        <br>
+        <label for="mail">Email: </label>
+        <input type="email" name="mail" id="" required> 
+        <br>
+        <input type="radio" name="Gender" id=""> Erkek
+        <input type="radio" name="Gender" id=""> Bayan
+        <br>
+        <label for="agreement">Sozlesmeyi onaylayiniz: </label>
+        <input type="checkbox" name="agreement" id="">
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+        <input type="color" name="" id=""> <br>
+        <input type="date" name="" id="">
+        <input type="month" name="" id="">
+        <input type="number" min="0" max="10"> <br>
+        <input type="range" min="0" max="100" step="10" value="24" onchange="updateTextInput(this.value);">
+        <input type="text" id="textInput" value=""> <br>
 
-    </form>
+        <input type="search" name="" id="">
+        <br>
+        <select name="language" id="languages">
+            <option value="1">Turkish</option>
+            <option value="2">English</option>
+            <option value="3">German</option>
+        </select>
+        
+    </form> <br>
+    
+    <input type="file" name="" id="">
 
 </body>
+<script>
+    function updateTextInput(val) {
+  document.getElementById('textInput').value=val; 
+}
+</script>
 </html>
