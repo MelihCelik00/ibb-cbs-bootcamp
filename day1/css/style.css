@@ -1,0 +1,65 @@
+h2 {
+    background-color: red;
+}
+
+#test {
+    background-color: green;
+}
+
+.container {
+    background-color: aqua;
+}
+
+.baslik {
+    color:blueviolet;
+}
+
+h1, h2, h3 {
+    color: sienna;
+}
+
+div span {
+    background-color: aqua;
+}
+
+div > b {
+    color: pink;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+}
+
+span {
+    width: 100px;
+    height: 100px;
+}
+
+.size {
+    width: 50%;
+}
+
+#padding {
+    width: 300px;
+    height: 250px;
+    background-color: aquamarine;
+    padding: 900px;
+}
+
+#margin {
+    width: 300px;
+    height: 250px;
+    background-color: aquamarine;
+    margin:  55px 10px 15px 25px;
+    border: 5px solid #ddd;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#outline {
+    width: 150px;
+    height: 150px;
+    outline-width: 2px;
+    outline-color: blue;
+}
