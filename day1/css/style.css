@@ -1,11 +1,9 @@
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: aliceblue;
+    background-color: aliceblue !important;
     background-image: url(   https://www.google.com.tr/search?q=g%C3%B6rseller&hl=en&authuser=0&tbm=isch&sxsrf=ALiCzsaMvDENkBx4grKcumQxz2RBcbEu0g%3A1671278699590&source=hp&biw=1440&bih=706&ei=a7CdY8iqIYqFxc8PoOmXsA4&iflsig=AJiK0e8AAAAAY52-e-7jnkghniapaqzJiLhA0rnJoOy6&ved=0ahUKEwiIjNSpzoD8AhWKQvEDHaD0BeYQ4dUDCAc&oq=g%C3%B6rseller&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgQIABAeMgQIABAeMgQIABAeMgQIABAeMgYIABAFEB4yBggAEAUQHjIECAAQHjIECAAQHjoHCCMQ6gIQJzoECCMQJ1DHL1iFQmDsQ2gCcAB4AIABqAGIAZcJkgEDMC45mAEAoAEBqgELZ3dzLXdpei1pbWewAQo&sclient=img&uact=5#imgrc=cy15FnonTrI_rM);
     background-repeat: no-repeat;
-    background-position: 25ç
-
-    px left;
+    
 }
 
 #box {
@@ -61,9 +59,16 @@ div {
     height: 100px;
 }
 
+.d-inline {
+    display: inline;
+}
+
 span {
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    display: block;
+    /* visibility: hidden; */
 }
 
 .size {
@@ -93,4 +98,45 @@ span {
     outline-width: 2px;
     outline-color: blue;
     outline-offset: 15px;
+}
+
+#testpos {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+}
+
+.absolute {
+    width: 100px;
+    height: 100px;
+    border: 1px solid gray;
+    display: absolute;
+}
+
+.d-container {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+}
+
+.d-box {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+}
+
+.first {
+    background-color: blue;
+    position: relative;
+}
+
+.second {
+    background-color: red;
+    position: relative;
+}
+
+.third {
+    background-color: green;
+    position: relative;
+    z-index: 25;
 }
