@@ -6,19 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script> 
 </head>
 <body>
-    <div class="order">
+    <div>
         <h1>IBB GIS Bootcamp Homework 1</h1>
         <h2>Melih Safa Çelik</h2>
     </div>
-    <div id="content"></div>
-    <div id="containerId" class="container" onload="create();">
-        <!-- <div class="box" id="list"></div>
-        <div class="box" id="view"></div> -->
+
+    <section id="data-list"></section>
+    <section id="preview">
+        <h1 id="name-header"></h1>
+        <h2 id="lat-header"></h2>
+        <h2 id="long-header"></h2>
+        <h2 id="phone-header"></h2>
+
+        <button id="backward-button">Backward</button>
+        <button id="forward-button">Forward</button>
+    </section>
     </div>
 
 
-    <script src="index.js"></script>
 </body>
 </html>
